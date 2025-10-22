@@ -3,117 +3,156 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kebijakan Privasi – Sensor Gempa</title>
+<title>Kebijakan Privasi – Sensor Gempa – Offline</title>
 <style>
-  body {font-family: "Segoe UI", Arial, sans-serif; margin: 2em; line-height: 1.7; color:#222; background:#fafafa;}
-  h1, h2 {color:#1c7c36;}
-  hr {margin:2em 0;}
-  .section {margin-bottom: 1.8em;}
-  .emoji {font-size: 1.2em;}
+  body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin: 0;
+    background: #f7f7f7;
+    color: #222;
+    line-height: 1.7;
+  }
+  header {
+    text-align: center;
+    background: linear-gradient(180deg, #1c7c36 0%, #118a63 100%);
+    color: white;
+    padding: 2em 1em 1.5em 1em;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  }
+  header img {
+    width: 96px;
+    height: 96px;
+    border-radius: 20%;
+    box-shadow: 0 0 8px rgba(255,255,255,0.7);
+  }
+  header h1 {
+    margin-top: 0.8em;
+    margin-bottom: 0.2em;
+  }
+  header p {
+    margin: 0;
+    font-size: 1.05em;
+    opacity: 0.9;
+  }
+  .container {
+    max-width: 800px;
+    margin: 2em auto;
+    background: white;
+    padding: 2em;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+  }
+  h2 {
+    color: #1c7c36;
+    border-left: 5px solid #ff9900;
+    padding-left: 10px;
+  }
+  ul { margin-left: 1.5em; }
+  hr { margin: 2em 0; border: none; border-top: 1px solid #ddd; }
+  footer {
+    text-align: center;
+    margin: 2em 0;
+    font-size: 0.9em;
+    color: #666;
+  }
+  .emoji { font-size: 1.2em; }
 </style>
 </head>
 <body>
-<h1>Bismillāhirraḥmānirraḥīm</h1>
 
-<div class="section">
-<h2 class="emoji">🧩 Tentang Pengembang — Nadnad Studio</h2>
-<p><strong>Kritik & Saran:</strong><br>
-📧 Email: <a href="mailto:nadnaddev@gmail.com">nadnaddev@gmail.com</a></p>
+<header>
+  <img src="216.png" alt="Sensor Gempa Icon">
+  <h1>Sensor Gempa – Offline</h1>
+  <p>Bismillāhirraḥmānirraḥīm<br>Dengan menyebut nama Allah Yang Maha Pengasih lagi Maha Penyayang</p>
+</header>
 
-<p><strong>Dukungan (opsional):</strong><br>
-💜 OVO: 0851-2988-339</p>
+<div class="container">
+  <h2 class="emoji">🔒 Kebijakan Privasi</h2>
+  <p>
+  Dokumen ini adalah <strong>Kebijakan Privasi resmi</strong> untuk aplikasi
+  <strong>Sensor Gempa – Offline</strong>, yang dikembangkan oleh
+  <strong>Nadnad Studio</strong> (Indonesia).
+  Kami menghormati privasi pengguna dan berkomitmen untuk melindunginya.
+  Aplikasi ini beroperasi sepenuhnya secara <em>offline</em> tanpa mengumpulkan,
+  menyimpan, atau membagikan data pribadi.
+  </p>
+
+  <h2 class="emoji">🧩 Tentang Pengembang</h2>
+  <p><b>Nadnad Studio</b> mengembangkan aplikasi ini sebagai alat bantu tambahan untuk
+  meningkatkan kewaspadaan masyarakat terhadap gempa. Seluruh proses deteksi getaran
+  dilakukan di perangkat pengguna tanpa koneksi internet.</p>
+  <p><b>Kontak:</b><br>
+  📧 <a href="mailto:nadnaddev@gmail.com">nadnaddev@gmail.com</a><br>
+  🌐 <a href="https://nadnaddev.my.id" target="_blank">https://nadnaddev.my.id</a></p>
+
+  <h2 class="emoji">⚙️ Izin yang Digunakan</h2>
+  <ul>
+    <li><b>POST_NOTIFICATIONS</b> — menampilkan status sensor & peringatan.</li>
+    <li><b>VIBRATE</b> — getar saat guncangan terdeteksi.</li>
+    <li><b>WAKE_LOCK</b> — menjaga perangkat aktif selama alarm.</li>
+    <li><b>FOREGROUND_SERVICE</b> — memastikan sensor tetap berjalan di latar depan.</li>
+    <li><b>SCHEDULE_EXACT_ALARM</b> — menjamin alarm jadwal tepat waktu.</li>
+    <li><b>REQUEST_IGNORE_BATTERY_OPTIMIZATIONS</b> — mencegah penundaan sensor.</li>
+    <li><b>FOREGROUND_SERVICE_DATA_SYNC</b> (Android 15+) — hanya pemrosesan lokal, bukan sinkronisasi jaringan.</li>
+  </ul>
+
+  <h2 class="emoji">💰 Iklan & Monetisasi</h2>
+  <p>
+  Aplikasi menampilkan iklan dari Google AdMob. AdMob dapat memakai
+  <em>Advertising ID</em> untuk menampilkan iklan relevan. Pengembang tidak
+  mengumpulkan data pribadi seperti nama, email, atau lokasi. Aplikasi tetap
+  berfungsi tanpa internet.
+  </p>
+
+  <h2 class="emoji">🏛️ Catatan</h2>
+  <p>
+  <strong>Sensor Gempa – Offline</strong> tidak memproses pembayaran atau donasi apa pun.
+  Halaman ini bersifat informatif.
+  </p>
+
+  <hr>
+
+  <h2 class="emoji">🌍 English Version</h2>
+  <p><b>Privacy Policy for Sensor Gempa – Offline</b><br>
+  Developed by <b>Nadnad Studio (Indonesia)</b>.</p>
+  <p>
+  This app operates entirely offline and does not collect, store, or share any
+  personal information. All detection and alarm processing occur locally on-device.
+  </p>
+
+  <p><b>Contact:</b><br>
+  📧 <a href="mailto:nadnaddev@gmail.com">nadnaddev@gmail.com</a><br>
+  🌐 <a href="https://nadnaddev.my.id" target="_blank">https://nadnaddev.my.id</a></p>
+
+  <h3>Permissions Used</h3>
+  <ul>
+    <li><b>POST_NOTIFICATIONS</b> — show sensor status & alerts.</li>
+    <li><b>VIBRATE</b> — trigger vibration when shaking is detected.</li>
+    <li><b>WAKE_LOCK</b> — keep device awake while alarm is active.</li>
+    <li><b>FOREGROUND_SERVICE</b> — keep monitoring active when screen off.</li>
+    <li><b>SCHEDULE_EXACT_ALARM</b> — ensure scheduled alarms on time.</li>
+  </ul>
+
+  <hr>
+  <h2 class="emoji">🇨🇳 简体中文版本</h2>
+  <p>
+  本隐私政策适用于应用程序 <b>Sensor Gempa – Offline</b>，
+  由 <b>Nadnad Studio（印度尼西亚）</b> 开发。
+  本应用完全离线运行，不会收集、存储或分享任何个人信息。
+  所有检测和警报均在用户设备本地进行处理。
+  </p>
+  <p>开发者联系方式：<br>
+  📧 <a href="mailto:nadnaddev@gmail.com">nadnaddev@gmail.com</a><br>
+  🌐 <a href="https://nadnaddev.my.id" target="_blank">https://nadnaddev.my.id</a></p>
+
+  <p><b>Developer:</b> Nadnad Studio – Indonesia<br>
+  © 2025 All rights reserved.</p>
 </div>
 
-<div class="section">
-<h2 class="emoji">🔒 Kebijakan Privasi</h2>
-<p>Aplikasi <strong>Sensor Gempa – Earthquake Detector Offline</strong> tidak mengumpulkan, menyimpan, atau membagikan data pribadi pengguna.</p>
-<p>Seluruh proses pendeteksian dilakukan secara lokal (<em>on-device</em>) menggunakan sensor bawaan perangkat, tanpa koneksi internet.</p>
-</div>
 
-<div class="section">
-<h2 class="emoji">⚙️ Izin yang Digunakan</h2>
-<ul>
-  <li><b>POST_NOTIFICATIONS</b> — untuk menampilkan peringatan penting, status sensor, atau pembaruan aplikasi.</li>
-  <li><b>VIBRATE</b> — agar alarm dapat bergetar ketika terdeteksi guncangan.</li>
-  <li><b>WAKE_LOCK</b> — menjaga perangkat tetap aktif selama alarm berbunyi.</li>
-  <li><b>FOREGROUND_SERVICE</b> — memastikan layanan sensor tetap berjalan di latar depan meskipun layar mati.</li>
-  <li><b>SCHEDULE_EXACT_ALARM</b> — menjamin alarm jadwal aktif tepat waktu tanpa keterlambatan.</li>
-  <li><b>REQUEST_IGNORE_BATTERY_OPTIMIZATIONS</b> — agar sistem tidak menunda layanan sensor.</li>
-  <li><b>FOREGROUND_SERVICE_DATA_SYNC</b> (Android 15 ke atas) — digunakan hanya untuk pemrosesan lokal, bukan sinkronisasi jaringan.</li>
-</ul>
-</div>
+<footer>
+  © 2025 Nadnad Studio – Indonesia · All rights reserved.
+</footer>
 
-<div class="section">
-<h2 class="emoji">💰 Iklan dan Monetisasi</h2>
-<p>Aplikasi ini menampilkan iklan dari Google AdMob. AdMob dapat menggunakan <em>Advertising ID</em> untuk menampilkan iklan yang lebih relevan.</p>
-<p>Tidak ada data pribadi seperti nama, email, atau lokasi yang dikumpulkan oleh pengembang.</p>
-<p>Aplikasi dapat berfungsi tanpa koneksi internet (<em>offline</em>).</p>
-</div>
-
-<div class="section">
-<h2 class="emoji">🏛️ Catatan</h2>
-<p>Versi yang dirilis tidak menampilkan metode atau instruksi donasi di dalam aplikasi.</p>
-<p>Halaman ini hanya bersifat informatif dan tidak memproses pembayaran apa pun.</p>
-</div>
-
-<hr>
-
-<h1>🌍 English Version</h1>
-<p><strong>Bismillāhirraḥmānirraḥīm</strong><br>
-(In the name of Allah, the Most Gracious, the Most Merciful)</p>
-
-<div class="section">
-<p><strong>Nadnad Studio</strong> presents <em>Sensor Gempa – Earthquake Detector Offline</em> as a small contribution for public safety.<br>
-With Allah’s permission, this app was created to detect vibrations using the phone’s internal sensors and trigger an alarm — serving as an additional early warning during earthquakes, especially while sleeping.<br>
-Please ensure the alarm remains active.</p>
-
-<p>This app runs entirely on-device, collects no personal data, and works without an internet connection.<br>
-We warmly welcome any feedback for future improvements.<br>
-May it bring benefit and become a source of <em>ṣadaqah jāriyah</em>, in shā’ Allāh.</p>
-</div>
-
-<div class="section">
-<h2 class="emoji">🧩 About the Developer — Nadnad Studio</h2>
-<p><strong>Feedback & Suggestions:</strong><br>
-📧 Email: <a href="mailto:nadnaddev@gmail.com">nadnaddev@gmail.com</a></p>
-
-<p><strong>Support (optional):</strong><br>
-💜 OVO: 0851-2988-339</p>
-</div>
-
-<div class="section">
-<h2 class="emoji">🔒 Privacy Policy</h2>
-<p>The app does not collect, store, or share any personal data.<br>
-All earthquake detection is processed locally using the device’s built-in accelerometer.</p>
-</div>
-
-<div class="section">
-<h2 class="emoji">⚙️ Permissions Used</h2>
-<ul>
-  <li><b>POST_NOTIFICATIONS</b> — to show important alerts and sensor status.</li>
-  <li><b>VIBRATE</b> — enables vibration when a shake is detected.</li>
-  <li><b>WAKE_LOCK</b> — keeps the device awake while the alarm is active.</li>
-  <li><b>FOREGROUND_SERVICE</b> — keeps sensor monitoring active even when the screen is off.</li>
-  <li><b>SCHEDULE_EXACT_ALARM</b> — ensures scheduled alarms trigger precisely on time.</li>
-  <li><b>REQUEST_IGNORE_BATTERY_OPTIMIZATIONS</b> — prevents the system from delaying the sensor service.</li>
-  <li><b>FOREGROUND_SERVICE_DATA_SYNC</b> (Android 15+) — used strictly for local sensor data processing, not for network sync.</li>
-</ul>
-</div>
-
-<div class="section">
-<h2 class="emoji">💰 Ads and Monetization</h2>
-<p>This app displays ads via Google AdMob.<br>
-AdMob may use the device’s Advertising ID to serve more relevant ads.<br>
-The developer does not collect any personal data such as names, emails, or locations.<br>
-The app also functions offline.</p>
-</div>
-
-<div class="section">
-<h2 class="emoji">🏛️ Note</h2>
-<p>The version does not include or promote donation methods.<br>
-This section is for informational purposes only and does not process any payments.</p>
-</div>
-
-<p style="text-align:center; margin-top:2em; font-size:0.9em; color:#666;">© 2025 Nadnad Studio. All rights reserved.</p>
 </body>
 </html>
