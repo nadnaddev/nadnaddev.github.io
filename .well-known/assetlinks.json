@@ -1,1 +1,15 @@
-https://nadnaddev.my.id
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.nadnad.sensorgempa",
+      "sha256_cert_fingerprints": [
+        "55:29:7F:FB:25:CF:7A:BE:1F:F7:96:A8:36:7E:97:E7:05:40:3E:08:16:77:21:CF:78:D9:F1:FD:A7:E8:36:84"
+      ]
+    }
+  }
+]
